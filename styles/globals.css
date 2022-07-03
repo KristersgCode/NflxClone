@@ -103,4 +103,22 @@ details summary::-webkit-details-marker {
   #flexi > .b {
     order: 2;
   }
+
+  @layer components {
+    .info-section-h1 {
+      @apply text-3xl md:text-4xl lg:text-5xl xs:text-2xl;
+    }
+
+    .info-section-h2 {
+      @apply text-lg font-light lg:text-2xl;
+    }
+
+    .icon-class {
+      @apply mr-5 h-8 lg:h-10;
+    }
+
+    .icon-class2 {
+      @apply mr-5 h-8 rotate-45 lg:h-10;
+    }
+  }
 }
