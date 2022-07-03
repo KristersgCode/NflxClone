@@ -27,6 +27,7 @@ function Banner() {
           layout="fill"
           objectFit="cover"
           className="z-[-1]"
+          alt={movie.name}
         />
       </div>
       <h1 className="z-50 text-5xl font-semibold">
