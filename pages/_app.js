@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import Home from ".";
 import "normalize.css/normalize.css";
 
 function MyApp({ Component, pageProps }) {
