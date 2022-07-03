@@ -20,6 +20,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
         {movies.map((movie) => (
           <div className=" relative h-80 row-poster">
             <Image
+              key={movie.name}
               src={`${base_url}${movie.poster_path || movie.backdrop_path}`}
               layout="fill"
               alt={movie.name}
