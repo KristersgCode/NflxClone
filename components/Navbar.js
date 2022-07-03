@@ -14,6 +14,7 @@ function Navbar() {
             layout="fill"
             objectFit="contain"
             objectPosition="left"
+            alt="Netflix logo"
           />
         </div>
 
