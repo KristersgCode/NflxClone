@@ -27,31 +27,31 @@ export default function App() {
         </button>
 
         {isDropdownToggle ? (
-          <div class="absolute w-60 px-5 py-3 dark:bg-gray-800 bg-white rounded-lg shadow border dark:border-transparent mt-5">
-            <ul class="space-y-3 dark:text-white">
-              <li class="font-medium">
+          <div className="absolute w-60 px-5 py-3 dark:bg-gray-800 bg-white rounded-lg shadow border dark:border-transparent mt-5">
+            <ul className="space-y-3 dark:text-white">
+              <li className="font-medium">
                 <a
                   href="#"
-                  class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700"
+                  className="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700"
                 >
-                  <div class="mr-3"></div>
+                  <div className="mr-3"></div>
                   Account
                 </a>
               </li>
-              <li class="font-medium">
+              <li className="font-medium">
                 <a
                   href="#"
-                  class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700"
+                  className="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700"
                 >
                   <div class="mr-3"></div>
                   Setting
                 </a>
               </li>
-              <hr class="dark:border-gray-700" />
-              <li class="font-medium">
+              <hr className="dark:border-gray-700" />
+              <li className="font-medium">
                 <a
                   href="#"
-                  class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-red-600"
+                  className="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-red-600"
                 ></a>
               </li>
             </ul>
