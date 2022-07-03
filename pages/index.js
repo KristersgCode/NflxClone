@@ -24,6 +24,7 @@ function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="left"
+          alt="background movies"
         />
 
         <Navbar />

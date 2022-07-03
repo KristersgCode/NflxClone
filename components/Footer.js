@@ -1,9 +1,9 @@
-import { ChevronDownIcon, GlobeAltIcon } from '@heroicons/react/solid'
+import { ChevronDownIcon, GlobeAltIcon } from "@heroicons/react/solid";
 
 function Footer() {
   return (
     <footer>
-      <div class="bg-black-custom flex h-[33vh] min-h-[500px] w-full items-center ">
+      <div className="bg-black-custom flex h-[33vh] min-h-[500px] w-full items-center ">
         {/* <div className="flex flex-grow justify-center text-xs">
           <div class="footer-box-container relative w-[140px]"> */}
         {/* <ul class="links-footer">
@@ -92,7 +92,7 @@ function Footer() {
       {/* </div>
       </div> */}
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

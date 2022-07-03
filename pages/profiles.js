@@ -20,6 +20,7 @@ function Profiles() {
                   layout="fill"
                   objectFit="contain"
                   objectPosition="left"
+                  alt="netflix logo"
                 />
               </a>
             </Link>
@@ -36,6 +37,7 @@ function Profiles() {
                   objectFit="cover"
                   objectPosition="left"
                   className="rounded-md"
+                  alt="Avatar image"
                 />
               </a>
             </Link>
