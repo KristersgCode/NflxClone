@@ -8,7 +8,7 @@ import FooterCopy from "../components/signin/FooterSignIn";
 function Signin() {
   return (
     <div>
-      <div className="relative sm:h-full h-[100vh] w-[100vw]">
+      <div className="relative sm:h-full h-[120vh] w-[100vw]">
         <div className="black-overlay absolute z-50 h-full w-full"></div>
         <Image
           src={BgImage}
