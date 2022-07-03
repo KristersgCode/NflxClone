@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import MoviePage from "../../pages/moviepage";
 import axios from "./../axios";
-import Image from "next/image";
 import Thumbnail from "./Thumbnail";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 

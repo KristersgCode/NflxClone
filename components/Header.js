@@ -3,13 +3,6 @@ import { ChevronRightIcon } from "@heroicons/react/solid";
 function Header() {
   return (
     <div className="relative z-50 flex h-[70vh] min-h-[500px] items-center border-b-8 border-zinc-800">
-      {/* <Image
-        src={BgImage}
-        layout="fill"
-        objectFit="cover"
-        objectPosition="left"
-      /> */}
-      {/* WRAPPER */}
       <div className="flex w-[100vw] flex-col items-center ">
         {/* CONTAINER FOR HEADING */}
         <div className="flex w-[40vw] min-w-[400px] flex-col items-center gap-5 text-center md:w-[50vh] xl:w-[70vh] xs:w-[80%] xs:min-w-[200px]">

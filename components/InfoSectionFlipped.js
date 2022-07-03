@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ImageTv from "../img/tv.png";
 
 function InfoSection({ description, headLine, img }) {
   return (

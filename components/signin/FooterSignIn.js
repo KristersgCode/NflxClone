@@ -1,6 +1,3 @@
-import Image from "next/image";
-import NetflixLogo from "../../img/logo.png";
-import Link from "next/link";
 import { ChevronDownIcon, GlobeAltIcon } from "@heroicons/react/solid";
 
 function FooterSignIn() {

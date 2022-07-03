@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { InformationCircleIcon, PlayIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import axios from "../axios";
 import requests from "../../utils/requests";

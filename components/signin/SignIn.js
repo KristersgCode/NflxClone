@@ -1,5 +1,3 @@
-import Image from "next/image";
-import NetflixLogo from "../../img/logo.png";
 import Link from "next/link";
 
 function SignIn() {

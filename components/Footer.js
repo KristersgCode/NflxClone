@@ -4,20 +4,6 @@ function Footer() {
   return (
     <footer>
       <div className="bg-black-custom flex h-[33vh] min-h-[500px] w-full items-center ">
-        {/* <div className="flex flex-grow justify-center text-xs">
-          <div class="footer-box-container relative w-[140px]"> */}
-        {/* <ul class="links-footer">
-              <li>
-                <a
-                  className="absolute bottom-[160px] w-[200px] sm:bottom-[140px] md:bottom-[120px]"
-                  href="#"
-                >
-                  Questions? Contact us.
-                </a>
-              </li> */}
-
-        {/* Links */}
-
         <div className="mb-10 flex w-[100%] justify-center text-[gray]">
           {/* Relative container */}
           <div className="w-[80%] items-center justify-center md:w-[60%] xl:w-[40%]">
@@ -85,12 +71,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          {/* Button container */}
         </div>
       </div>
-
-      {/* </div>
-      </div> */}
     </footer>
   );
 }
