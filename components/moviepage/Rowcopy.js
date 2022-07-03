@@ -18,9 +18,8 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
       <h2>{title}</h2>
       <div className="flex overflow-y-hidden overflow-x-scroll p-5">
         {movies.map((movie) => (
-          <div className=" relative h-80 row-poster">
+          <div key={movie} className=" relative h-80 row-poster">
             <Image
-              key={movie.name}
               src={`${base_url}${movie.poster_path || movie.backdrop_path}`}
               layout="fill"
               alt={movie.name}
