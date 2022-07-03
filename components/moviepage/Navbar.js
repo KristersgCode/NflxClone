@@ -3,8 +3,6 @@ import Image from "next/image";
 import NetflixLogo from "../../img/logo.png";
 import Avatar1 from "../../img/avatar1.jpg";
 import Link from "next/link";
-import { BellIcon, CheckIcon, SearchIcon } from "@heroicons/react/solid";
-import Dropdown from "./Dropdown";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
