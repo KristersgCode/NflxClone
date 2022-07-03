@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import MoviePage from "../../pages/moviepage";
 import axios from "./../axios";
 import Image from "next/image";
 

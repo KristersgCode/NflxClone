@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import ImageTv from '../img/tv.png'
+import Image from "next/image";
+import ImageTv from "../img/tv.png";
 
 function InfoSection({ description, headLine, img }) {
   return (
@@ -19,11 +19,12 @@ function InfoSection({ description, headLine, img }) {
             layout="fill"
             objectFit="contain"
             className="relative z-50"
+            alt="TV image"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default InfoSection
+export default InfoSection;

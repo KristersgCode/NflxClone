@@ -15,6 +15,7 @@ function InfoSection({ description, headLine, img }) {
             layout="fill"
             objectFit="contain"
             className="relative z-50"
+            alt="Tv image"
           />
         </div>
       </div>

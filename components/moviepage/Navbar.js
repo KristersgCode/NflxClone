@@ -39,6 +39,7 @@ function Navbar() {
             layout="fill"
             objectFit="contain"
             objectPosition="left"
+            alt="Netflix logo"
           />
         </Link>
       </div>
@@ -57,6 +58,7 @@ function Navbar() {
               objectFit="cover"
               objectPosition="left"
               className="rounded-md"
+              alt="Avatar profile"
             />
           </div>
         </div>

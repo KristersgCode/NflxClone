@@ -15,6 +15,7 @@ function Signin() {
           layout="fill"
           objectFit="cover"
           objectPosition="left"
+          alt="background movie image"
         />
         <div className="absolute h-full w-full">
           <div className="relative mt-[-10px] z-[60] ml-5 h-[110px] w-[200px]">
@@ -25,6 +26,7 @@ function Signin() {
                   layout="fill"
                   objectFit="contain"
                   objectPosition="left"
+                  alt="netflix logo"
                 />
               </a>
             </Link>

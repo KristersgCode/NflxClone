@@ -10,6 +10,7 @@ function Thumbnail({ movie }) {
         src={`${base_url}${movie.poster_path || movie.backdrop_path}`}
         className="rounded-sm object-cover md:rounded"
         layout="fill"
+        alt={movie.name}
       />
     </div>
   );

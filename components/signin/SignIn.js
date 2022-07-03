@@ -39,7 +39,10 @@ function SignIn() {
                 </div>
 
                 <div className="flex w-full justify-between text-gray-300">
-                  <label for="remember" className="ml-2 text-sm font-normal ">
+                  <label
+                    htmlFor="remember"
+                    className="ml-2 text-sm font-normal "
+                  >
                     Remember me
                   </label>
                   <a className="text-sm font-light" href="">
@@ -55,8 +58,8 @@ function SignIn() {
                 </div>
                 <div>
                   <p className="text-xs">
-                    This page is protected by Google reCAPTCHA to ensure you're
-                    not a bot.{" "}
+                    This page is protected by Google reCAPTCHA to ensure you are
+                    not a bot.
                     <a href="" className="text-blue-600">
                       Learn more.
                     </a>

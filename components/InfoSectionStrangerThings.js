@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import DownloadContPicture from '../img/boxshot.png'
-import DownloadIcon from '../img/download-icon.gif'
+import Image from "next/image";
+import DownloadContPicture from "../img/boxshot.png";
+import DownloadIcon from "../img/download-icon.gif";
 
 function InfoSection({ description, headLine, img }) {
   return (
@@ -26,22 +26,33 @@ function InfoSection({ description, headLine, img }) {
                   src={DownloadContPicture}
                   layout="fill"
                   objectFit="contain"
+                  alt="Thumbnail DVD"
                 />
               </div>
               <div className="ml-4 flex w-full items-center justify-between">
                 <p>Downloading...</p>
                 <div className="relative flex h-12 w-12 bg-white">
-                  <Image src={DownloadIcon} layout="fill" objectFit="contain" />
+                  <Image
+                    src={DownloadIcon}
+                    layout="fill"
+                    objectFit="contain"
+                    alt="download icon"
+                  />
                 </div>
               </div>
             </div>
           </div>
 
-          <Image src={img} layout="fill" objectFit="contain" />
+          <Image
+            src={img}
+            layout="fill"
+            objectFit="contain"
+            alt="stranger things image"
+          />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default InfoSection
+export default InfoSection;
