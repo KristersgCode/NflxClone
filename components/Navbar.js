@@ -20,7 +20,10 @@ function Navbar() {
 
         {/* BUTTON DIV */}
         <div className="z-50 mt-7 flex">
-          <button className=" w-26 mr-6 flex h-9 items-center rounded-sm border border-zinc-400 text-sm font-light">
+          <button
+            onClick={() => alert("There is only english language")}
+            className=" w-26 mr-6 flex h-9 items-center rounded-sm border border-zinc-400 text-sm font-light"
+          >
             <GlobeAltIcon className="m-1 h-4" />
             English
             <ChevronDownIcon className="m-1 h-5" />

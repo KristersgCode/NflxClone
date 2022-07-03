@@ -61,7 +61,10 @@ function Footer() {
             </ul>
             <div className=" absolute w-[200px]">
               <div className="flex flex-col">
-                <button className="mr-6 mt-8  flex h-12 w-32 items-center justify-center rounded-sm border border-zinc-700 text-sm">
+                <button
+                  onClick={() => alert("There is only english language")}
+                  className="mr-6 mt-8  flex h-12 w-32 items-center justify-center rounded-sm border border-zinc-700 text-sm"
+                >
                   <GlobeAltIcon className="m-1 h-4 pr-3" />
                   English <ChevronDownIcon className="m-1 h-5" />
                 </button>

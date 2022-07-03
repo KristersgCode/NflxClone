@@ -28,7 +28,14 @@ function Header() {
             required
           />
 
-          <button className="red lg: mt-4 flex h-10 w-36 items-center justify-center rounded-sm bg-slate-100 font-light lg:mt-0 lg:h-14 lg:w-72 lg:text-2xl xl:h-16 xl:w-80">
+          <button
+            onClick={() =>
+              alert(
+                "Please press sign in button on top right corner of the website"
+              )
+            }
+            className="red lg: mt-4 flex h-10 w-36 items-center justify-center rounded-sm bg-slate-100 font-light lg:mt-0 lg:h-14 lg:w-72 lg:text-2xl xl:h-16 xl:w-80"
+          >
             Get Started <ChevronRightIcon className="h-5" />
           </button>
         </div>

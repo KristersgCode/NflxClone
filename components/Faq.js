@@ -44,7 +44,14 @@ function Faq() {
               type="text"
             />
 
-            <button className="red mb-2 lg:mb-14 mt-4 flex h-10 w-36 items-center rounded-sm bg-slate-100 pl-5 font-light lg:mt-0 lg:h-14 lg:w-72 lg:pl-8 lg:text-2xl xl:h-16 xl:w-80 xl:pl-10">
+            <button
+              onClick={() =>
+                alert(
+                  "Please press sign in button on top right corner of the website"
+                )
+              }
+              className="red mb-2 lg:mb-14 mt-4 flex h-10 w-36 items-center rounded-sm bg-slate-100 pl-5 font-light lg:mt-0 lg:h-14 lg:w-72 lg:pl-8 lg:text-2xl xl:h-16 xl:w-80 xl:pl-10"
+            >
               Get Started <ChevronRightIcon className="h-5" />
             </button>
           </div>
