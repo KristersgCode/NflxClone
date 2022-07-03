@@ -26,7 +26,7 @@ function Profiles() {
         {/* Profile container */}
         <h1>Whose watching?</h1>
         <div className="z-50 flex flex-row gap-x-3">
-          <div className="relative h-[100px] w-[100px] rounded-md bg-red-200 hover:border-2 hover:border-gray-200">
+          <div className="relative h-[100px] w-[100px] rounded-md hover:border-2 hover:border-gray-200">
             <Link href="/moviepage">
               <a>
                 <Image
